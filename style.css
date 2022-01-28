@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1,h2,h3{
+    font-size: 4rem;
+}
+
+.game-section{
+    width: 50rem;
+    height: 50rem;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(218, 112, 209);
+}
+
+.row{
+    height: 33.3%;
+}
+.col{
+    border: 2px solid rgb(0, 0, 0);
+    width: 32.95%;
+    height: 100%;
+    display: inline-block;
+    position:static;
+    position: relative;
+}
+
+.col h1{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%)
+}
+
+.popUp{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(241, 162, 15, 0.849);
+    height: 100vh;
+    width: 100vw;
+}
+
+.popUpBox{
+    height: 15rem;
+    width: 30rem;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2.5rem 0;
+    border-radius: 1rem;
+}
+.popUp button{
+    padding: 0.5em 1em;
+    outline: none;
+    background-color: rgb(0, 118, 148);
+    border: none;
+    border-radius: 5rem;
+    font-size: 2rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.548);
+}
+.popUp button:hover{
+    background-color: rgba(0, 118, 148, 0.904);
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.733);
+}
+.popUp h1{
+    margin-bottom: 0.5rem;
+}
